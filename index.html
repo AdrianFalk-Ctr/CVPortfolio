@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrian D. Falk – Portfolio</title>
+  <meta name="description" content="Portfolio von Adrian D. Falk – Student des Wirtschaftsingenieurwesens an der TH Lübeck mit Schwerpunkt Maschinenbau." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── Navigation ─── -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">Adrian D. Falk</a>
+      <nav class="nav__links">
+        <a href="#about">Über mich</a>
+        <a href="#experience">Erfahrung</a>
+        <a href="#projects">Projekte</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ─── Hero ─── -->
+    <section class="hero" id="hero">
+      <div class="hero__content">
+        <p class="hero__greeting fade-in">Hallo, ich bin</p>
+        <h1 class="hero__name fade-in delay-1">Adrian D. Falk</h1>
+        <p class="hero__title fade-in delay-2">
+          <span class="typed-text"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero__sub fade-in delay-3">
+          Student des Wirtschaftsingenieurwesens (B.Sc.) · Schwerpunkt Maschinenbau · TH Lübeck.
+          Technisches Fundament trifft KI-Kompetenz und Webentwicklung.
+          Ich mache Dinge – nicht nur Pläne.
+        </p>
+        <div class="hero__cta fade-in delay-4">
+          <a href="#contact" class="btn btn--primary">Kontakt aufnehmen</a>
+          <a href="Lebenslauf 11.02.2026.pdf" class="btn btn--ghost" download>Lebenslauf</a>
+        </div>
+        <div class="hero__social fade-in delay-4">
+          <a href="https://www.linkedin.com/in/adrian-d-falk-875vf" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.93v5.68H9.37V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="mailto:a.forlanski95@gmail.com" aria-label="E-Mail">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero__scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ─── Über mich ─── -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section__title">Über mich</h2>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              Ich bin Adrian – <strong>Wirtschaftsingenieur-Student</strong> an der TH Lübeck und jemand,
+              der Maschinen versteht, Zahlen denkt und mit KI arbeitet. Nicht nacheinander, sondern gleichzeitig.
+              Diese Kombination ist selten – und genau das macht den Unterschied.
+            </p>
+            <p>
+              Als <strong>Leitender Tutor</strong> verantworte ich Tutorien für über <strong>100 Studierende</strong>
+              in Technischer Mechanik. Daneben baue ich als <strong>Vibe Coder</strong> eigenständig Websites
+              und setze <strong>KI-Tools produktiv in realen Prozessen</strong> ein – nicht als Spielzeug,
+              sondern als Werkzeug, das messbar Zeit spart und Qualität steigert.
+            </p>
+            <p>
+              Praktische Erfahrung habe ich bereits bei der <strong>DIS AG</strong> im Personalwesen
+              und im <strong>Maschinenbau-Praktikum bei Confurius</strong> gesammelt.
+              Ich bringe mit, was viele erst noch lernen müssen: <strong>technisches Fundament +
+              digitale Eigeninitiative</strong>.
+            </p>
+            <p>
+              Ich suche eine <strong>Werkstudentenstelle oder ein Praktikum</strong>,
+              in dem beides gefragt ist.
+            </p>
+            <a href="Lebenslauf 11.02.2026.pdf" class="btn btn--primary" download>Lebenslauf herunterladen</a>
+          </div>
+          <div class="about__facts reveal">
+            <div class="fact-card">
+              <span class="fact-card__num">3.</span>
+              <span class="fact-card__label">Semester WiIng</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-card__num">B.Sc.</span>
+              <span class="fact-card__label">Vorläufiger Abschluss</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-card__num">100+</span>
+              <span class="fact-card__label">Studenten betreut</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-card__num">3</span>
+              <span class="fact-card__label">Ehrenämter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Erfahrung ─── -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <h2 class="section__title">Erfahrung</h2>
+
+        <div class="timeline">
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Praktikant Maschinenbau</h3>
+                  <p class="timeline__company">Confurius Antriebs- u. Pumpenservice · Lübeck</p>
+                </div>
+                <span class="timeline__date">02.2026 – 04.2026</span>
+              </div>
+              <p class="timeline__desc">
+                Einblick in die Praxis des Maschinenbaus: Antriebs- und Pumpentechnik,
+                technische Dokumentation und Arbeitsabläufe im Servicebetrieb.
+              </p>
+              <div class="timeline__tags">
+                <span class="tag">Maschinenbau</span>
+                <span class="tag">Antriebstechnik</span>
+                <span class="tag">Technische Dokumentation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Leitender Tutor – Technische Mechanik 1 &amp; 2</h3>
+                  <p class="timeline__company">TH Lübeck</p>
+                </div>
+                <span class="timeline__date">seit 09.2025</span>
+              </div>
+              <p class="timeline__desc">
+                Eigenverantwortliche Leitung von Tutorien für Studierende der Technischen Mechanik.
+                Vorbereitung und Vermittlung komplexer Inhalte, Betreuung und Prüfungsvorbereitung.
+              </p>
+              <div class="timeline__tags">
+                <span class="tag">Didaktik</span>
+                <span class="tag">Teammanagement</span>
+                <span class="tag">Technische Mechanik</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Werkstudent Personalwesen</h3>
+                  <p class="timeline__company">DIS AG · Lübeck</p>
+                </div>
+                <span class="timeline__date">01.2025 – 06.2025</span>
+              </div>
+              <p class="timeline__desc">
+                Unterstützung im Bereich Personalvermittlung und -dienstleistung.
+                Kennenlernen von HR-Prozessen, Kandidatenmanagement und administrativen Abläufen.
+              </p>
+              <div class="timeline__tags">
+                <span class="tag">Human Resources</span>
+                <span class="tag">Recruiting</span>
+                <span class="tag">Prozessmanagement</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Privater Nachhilfelehrer</h3>
+                  <p class="timeline__company">Selbstständig · Lübeck</p>
+                </div>
+                <span class="timeline__date">2022 – 2024</span>
+              </div>
+              <p class="timeline__desc">
+                Betreuung von über 10 Schülerinnen und Schülern in Mathematik und weiteren Fächern.
+                Förderung von Lernstrategien und individuelle Vorbereitung auf Prüfungen.
+              </p>
+              <div class="timeline__tags">
+                <span class="tag">Pädagogik</span>
+                <span class="tag">Mathematik</span>
+                <span class="tag">Selbstorganisation</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Projekte ─── -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projekte</h2>
+
+        <div class="projects__grid">
+
+          <div class="project-card reveal">
+            <div class="project-card__header">
+              <span class="project-card__badge">Hochschulprojekt · Note 2,0</span>
+              <h3 class="project-card__title">Controlling-System für Puma SE</h3>
+            </div>
+            <p class="project-card__desc">
+              Entwicklung eines treiberbasieren Planungs- und Kennzahlensystems für den
+              internationalen Sportartikelkonzern Puma SE. Konzeption von KPIs, Steuerungsgrößen
+              und eines integrierten Berichtsmodells zur Unternehmenssteuerung.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">Controlling</span>
+              <span class="tag">KPI-System</span>
+              <span class="tag">Excel / Office 365</span>
+              <span class="tag">Unternehmensplanung</span>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-card__header">
+              <span class="project-card__badge">Hanseatic Hackathon · Case: Brüggen</span>
+              <h3 class="project-card__title">LLM zur Verpackungsversionierung</h3>
+            </div>
+            <p class="project-card__desc">
+              Entwicklung eines Large Language Model-basierten Systems zur intelligenten
+              Versionierung und Verwaltung von Verpackungsdesigns für das Unternehmen Brüggen.
+              Prompt Engineering, Datenbankstruktur und Konzeption in einem interdisziplinären Team.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">LLM</span>
+              <span class="tag">Prompt Engineering</span>
+              <span class="tag">Python</span>
+              <span class="tag">Hackathon</span>
+            </div>
+          </div>
+
+          <div class="project-card project-card--wide reveal">
+            <div class="project-card__header">
+              <span class="project-card__badge">Ehrenamt · seit 2025</span>
+              <h3 class="project-card__title">Seagulls Formula Student Team – Fertigungsbereich</h3>
+            </div>
+            <p class="project-card__desc">
+              Aktives Mitglied im Formula Student Team der TH Lübeck. Mitarbeit im Fertigungsbereich
+              am Aufbau eines Rennautos – von der Konstruktion bis zur Umsetzung unter realen
+              Wettbewerbsbedingungen.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">Formula Student</span>
+              <span class="tag">Fertigung</span>
+              <span class="tag">Teamarbeit</span>
+              <span class="tag">Maschinenbau</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Skills ─── -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills &amp; Kenntnisse</h2>
+
+        <div class="skills__categories">
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">KI &amp; Automatisierung</h3>
+            <div class="skill-tags">
+              <span class="tag">Prompt Engineering</span>
+              <span class="tag">LLM-Workflows</span>
+              <span class="tag">KI in Prozessen</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Office 365</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Webentwicklung</h3>
+            <div class="skill-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Vibe Coding</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Weitere IT-Kenntnisse</h3>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">BPMN</span>
+              <span class="tag">JSON</span>
+              <span class="tag">XML / XSD</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Soft Skills</h3>
+            <div class="skill-tags">
+              <span class="tag">Analytisches Denken</span>
+              <span class="tag">Teammanagement</span>
+              <span class="tag">Agiles Arbeiten</span>
+              <span class="tag">Zeitmanagement</span>
+              <span class="tag">Organisation</span>
+              <span class="tag">Soziale Kompetenz</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Sprachen</h3>
+            <div class="skill-bars">
+              <div class="skill-bar">
+                <div class="skill-bar__label"><span>Deutsch</span><span>Muttersprache</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill" data-width="100"></div></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar__label"><span>Englisch</span><span>B2</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill" data-width="72"></div></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Kontakt ─── -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section__title">Kontakt</h2>
+        <p class="contact__sub">
+          Du hast eine spannende Möglichkeit oder möchtest dich austauschen? Ich freue mich auf deine Nachricht!
+        </p>
+        <div class="contact__grid">
+          <div class="contact__info">
+            <a href="mailto:a.forlanski95@gmail.com" class="contact-link">
+              <div class="contact-link__icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </div>
+              <div>
+                <span class="contact-link__label">E-Mail</span>
+                <span class="contact-link__value">a.forlanski95@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/adrian-d-falk-875vf" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link__icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.93v5.68H9.37V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+              </div>
+              <div>
+                <span class="contact-link__label">LinkedIn</span>
+                <span class="contact-link__value">linkedin.com/in/adrian-d-falk-875vf</span>
+              </div>
+            </a>
+            <a href="tel:+4915208664720" class="contact-link">
+              <div class="contact-link__icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.07 21 3 13.93 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02l-2.21 2.2z"/></svg>
+              </div>
+              <div>
+                <span class="contact-link__label">Telefon</span>
+                <span class="contact-link__value">01520 866472</span>
+              </div>
+            </a>
+          </div>
+
+          <form class="contact__form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Dein Name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-Mail</label>
+              <input type="email" id="email" name="email" placeholder="deine@email.de" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Nachricht</label>
+              <textarea id="message" name="message" rows="5" placeholder="Deine Nachricht..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Nachricht senden</button>
+            <p class="form-note">Das Formular öffnet deinen E-Mail-Client.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── Footer ─── -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Adrian D. Falk · Lübeck</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
