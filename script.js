@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════
-   Portfolio – Adrian D. Falk
+   Portfolio , Adrian D. Falk
 ═══════════════════════════════════════════ */
 
 // ── Navigation: Hintergrund beim Scrollen ──
